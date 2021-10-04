@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+/*========================================================================
+	input[type=text]
+========================================================================*/
+body {
+	font:99% "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "Meiryo", "メイリオ", "Osaka", "MS PGothic", arial, helvetica, sans-serif;
+	background-color: #fafafa;
+}
+
+table.mainlist {
+	border-collapse: collapse;
+	line-height: 1.5em;
+}
+
+table.mainlist thead th {
+	padding: 10px;
+	font-weight: bold;
+	background: #dcdcd1;
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-bottom: 2px solid #03c;
+}
+
+table.mainlist td {
+	padding: 10px;
+	border: 1px solid #ccc;
+	vertical-align: top;
+}
+
+table.inputform {
+	border-collapse: collapse;
+	line-height: 1.5em;
+}
+
+table.inputform td {
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+
+table.inputform th{
+    padding: 10px;
+    font-weight: bold;
+    color: #153d73;
+	text-align: left;
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-left: 2px solid #03c;
+	border-bottom: 1px solid #ccc;
+}
+
+input {
+	border:0;
+	padding:5px;
+	font-size:1.3em;
+	color:#000;
+	border:solid 1px #ccc;
+	margin:0 0 10px;
+	width:200px;
+}
+
+input.radio {
+	width:15px;
+}
+
+input.checkbox {
+	width:15px;
+}
+
+input.long {
+	width: 500px;
+}
+
+input:focus {
+    border:solid 1px #EEA34A;
+}
+
+input.button{
+	border:0;
+	padding:5px;
+	font-size:1.3em;
+	color:#03c;
+	border:solid 1px #aaa;
+	margin:0 0 10px;
+	width:100px;
+}
+
+input.button_long{
+	border:0;
+	padding:5px;
+	font-size:1.3em;
+	color:#03c;
+	border:solid 1px #aaa;
+	margin:0 0 10px;
+	width:250px;
+}
+
+input.button_in_table{
+	border:0;
+	padding:2px;
+	font-size:1.3em;
+	color:#03c;
+	border:solid 1px #aaa;
+	margin:0 0 0px;
+	width:80px;
+}
+
+input.button_in_table_red{
+	border:0;
+	padding:2px;
+	font-size:1.3em;
+	color:#dddddd;
+	border:solid 1px #aaa;
+	background-color: firebrick;
+	margin:0 0 0px;
+	width:80px;
+}
+
+select {
+	padding: 5px;
+	border:solid 1px #ccc;
+	width: 200px;
+}
+
+hr.style1 { 
+	border: 0; 
+	height: 1px; 
+	background-image: -webkit-linear-gradient(left, #03c, #03c, #f0f0f0);
+	background-image: -moz-linear-gradient(left, #03c, #03c, #f0f0f0);
+	background-image: -ms-linear-gradient(left, #03c, #03c, #f0f0f0);
+	background-image: -o-linear-gradient(left, #03c, #03c, #f0f0f0); 
+}
+
+.timeline_status {
+	color: #03c;
+}
+
+.timeline_notice {
+	color:dimgray;
+	font-size: small;
+}
+
+.authority_name {
+	color: firebrick;
+}
+
+.authority_empty {
+	color: dimgray;
+}
+
+.authorized_complete {
+	color: firebrick;
+}
+
+.authorized_incomplete {
+	color: dimgray;
+}
+
+.authorized_progress {
+	color: indianred;
+}
