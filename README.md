@@ -1,4 +1,4 @@
-# simplBT
+# simpleBT
 SImple Bug Tracker
 
 ## Development Background
