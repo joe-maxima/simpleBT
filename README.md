@@ -4,17 +4,16 @@ SImple Bug Tracker
 ## Development Background
 
 I used to handle bug tickets in an Excel file, but it was very inconvenient, so I made one.
-I know there are some excellent bug tracking systems out there,
-However my boss boss couldn't figure out the structure of the bug tracking system, so I made this.
+(I know there are some excellent bug tracking systems out there)
 About 20 hours of development time, including maintenance.
 
 
 ## Overview
 
-This system uses 8 tables.
+This system uses 8 tables on MySQK.
 
 This system is built with php and smarty.
-However, it does not have a maintenance screen for data that is rarely maintained.
+It does not have a maintenance screen for data that is rarely maintained.
 
 Following is functions:
 - Registering product defects as the ticket.
